@@ -198,8 +198,8 @@ class TransactionDetail(object):
         :param memo: The memo of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if memo is None:
-            raise ValueError("Invalid value for `memo`, must not be `None`")  # noqa: E501
+        # if memo is None:
+        #     raise ValueError("Invalid value for `memo`, must not be `None`")  # noqa: E501
 
         self._memo = memo
 
@@ -331,8 +331,8 @@ class TransactionDetail(object):
         :param payee_id: The payee_id of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if payee_id is None:
-            raise ValueError("Invalid value for `payee_id`, must not be `None`")  # noqa: E501
+        # if payee_id is None:
+        #     raise ValueError("Invalid value for `payee_id`, must not be `None`")  # noqa: E501
 
         self._payee_id = payee_id
 
@@ -354,8 +354,8 @@ class TransactionDetail(object):
         :param category_id: The category_id of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if category_id is None:
-            raise ValueError("Invalid value for `category_id`, must not be `None`")  # noqa: E501
+        # if category_id is None:
+        #     raise ValueError("Invalid value for `category_id`, must not be `None`")  # noqa: E501
 
         self._category_id = category_id
 
@@ -377,8 +377,8 @@ class TransactionDetail(object):
         :param transfer_account_id: The transfer_account_id of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if transfer_account_id is None:
-            raise ValueError("Invalid value for `transfer_account_id`, must not be `None`")  # noqa: E501
+        # if transfer_account_id is None:
+        #     raise ValueError("Invalid value for `transfer_account_id`, must not be `None`")  # noqa: E501
 
         self._transfer_account_id = transfer_account_id
 
@@ -402,8 +402,8 @@ class TransactionDetail(object):
         :param import_id: The import_id of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if import_id is None:
-            raise ValueError("Invalid value for `import_id`, must not be `None`")  # noqa: E501
+        # if import_id is None:
+        #     raise ValueError("Invalid value for `import_id`, must not be `None`")  # noqa: E501
 
         self._import_id = import_id
 
@@ -448,8 +448,8 @@ class TransactionDetail(object):
         :param payee_name: The payee_name of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if payee_name is None:
-            raise ValueError("Invalid value for `payee_name`, must not be `None`")  # noqa: E501
+        # if payee_name is None:
+        #     raise ValueError("Invalid value for `payee_name`, must not be `None`")  # noqa: E501
 
         self._payee_name = payee_name
 
@@ -471,8 +471,8 @@ class TransactionDetail(object):
         :param category_name: The category_name of this TransactionDetail.  # noqa: E501
         :type: str
         """
-        if category_name is None:
-            raise ValueError("Invalid value for `category_name`, must not be `None`")  # noqa: E501
+        # if category_name is None:
+        #     raise ValueError("Invalid value for `category_name`, must not be `None`")  # noqa: E501
 
         self._category_name = category_name
 
